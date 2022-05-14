@@ -12,11 +12,11 @@
 </head>
 <body>
   <header class="fluid-container">
-      <img class="logo" src="assets/logo-dark.svg" type="image/svg" alt="logo">
+      <img class="logo" src="assets/logo-dark.svg" alt="logo">
       <button class="btn btn--main">Get Started</button>
   </header>
   <main class="fluid-container">
-    <section class="hero__content">
+    <section aria-label="hero content" class="hero__content">
       <h1>Maximize skill,<br> minimize budget</h1>
       <p>Our modern courses across a range of in-demand skills will give you the 
   knowledge you need to live the life you want.</p>
@@ -30,11 +30,11 @@
       <source media="(min-width: 768px)" srcset="assets/image-hero-tablet.webp, assets/image-hero-tablet@2x.webp 2x" type="image/webp">
 
       <source srcset="assets/image-hero-mobile.webp, assets/image-hero-mobile@2x.webp 2x" type="image/webp">
-      <img srcset="assets/image-hero-mobile@2x.png 2x" src="assets/image-hero-mobile.png" type="image/png" alt="hero-image-mobile">
+      <img srcset="assets/image-hero-mobile@2x.png 2x" src="assets/image-hero-mobile.png" alt="hero-image-mobile">
     </picture>
   </main>
-  <section class="fluid-container courses">
-    <article class="courses__title"><h2>Check out our most popular courses!</h2></article>
+  <section aria-labelledby="#courses_heading" class="fluid-container courses">
+    <article class="courses__title"><h2 id="courses_heading">Check out our most popular courses!</h2></article>
     <article class="courses__item">
       <h3>Animation</h3>
       <p>Learn the latest animation techniques to create stunning motion 
